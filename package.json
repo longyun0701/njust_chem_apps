@@ -1,0 +1,25 @@
+{
+  "homepage": "https://longyun0701.github.io/njust_chem_apps",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "main": "/index.js",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "react-scripts": "^1.1.5"
+  },
+  "name": "njust_calc",
+  "description": "",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
